@@ -223,8 +223,8 @@ async def play(c: Client, m: Message):
                 duration = search[2]
                 thumbnail = search[3]
                 format = "bestaudio[ext=m4a]"
-                veez, ytlink = await ytdl(format, url)
-                if veez == 0:
+                Marrk, ytlink = await ytdl(format, url)
+                if marrk == 0:
                     await suhu.edit(f"❌ yt-dl issues detected\n\n» `{ytlink}`")
                 else:
                     if chat_id in QUEUE:
