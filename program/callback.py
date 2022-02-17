@@ -26,11 +26,11 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "[► Add me to your Group ◄]",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("[► Basic Guide ◄]", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("[►  Commands ◄]", callback_data="cbcmds"),
                     InlineKeyboardButton("[►  Owner ◄]", url=f"https://t.me/{OWNER_NAME}"),
