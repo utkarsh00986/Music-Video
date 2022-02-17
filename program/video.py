@@ -391,12 +391,12 @@ async def vstream(c: Client, m: Message):
         regex = r"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+"
         match = re.match(regex, link)
         if match:
-            veez, livelink = await ytdl(link)
+            marrk, livelink = await ytdl(link)
         else:
             livelink = link
-            veez = 1
+            marrk = 1
 
-        if veez == 0:
+        if marrk == 0:
             await loser.edit(f"❌ yt-dl issues detected\n\n» `{livelink}`")
         else:
             if chat_id in QUEUE:
