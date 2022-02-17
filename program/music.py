@@ -169,8 +169,8 @@ async def play(c: Client, m: Message):
                     duration = search[2]
                     thumbnail = search[3]
                     format = "bestaudio[ext=m4a]"
-                    marrk, ytlink = await ytdl(format, url)
-                    if marrk == 0:
+                    jennie, ytlink = await ytdl(format, url)
+                    if jennie == 0:
                         await suhu.edit(f"❌ yt-dl issues detected\n\n» `{ytlink}`")
                     else:
                         if chat_id in QUEUE:
@@ -223,8 +223,8 @@ async def play(c: Client, m: Message):
                 duration = search[2]
                 thumbnail = search[3]
                 format = "bestaudio[ext=m4a]"
-                Marrk, ytlink = await ytdl(format, url)
-                if marrk == 0:
+                veez, ytlink = await ytdl(format, url)
+                if veez == 0:
                     await suhu.edit(f"❌ yt-dl issues detected\n\n» `{ytlink}`")
                 else:
                     if chat_id in QUEUE:
