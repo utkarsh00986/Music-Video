@@ -52,7 +52,7 @@ async def _human_time_duration(seconds):
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-     await message.reply_photo("https://te.legra.ph/file/a936da7971c554abfe825.jpg")
+     await message.reply_photo("https://te.legra.ph/file/6bf8b2195359bc851eaec.jpg")
      await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
 💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
@@ -65,11 +65,11 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "[► Add me to your Group ◄]",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("[► Basic Guide ◄]", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("[► Commands ◄]", callback_data="cbcmds"),
                     InlineKeyboardButton("[► Owner ◄]", url=f"https://t.me/{OWNER_NAME}"),
