@@ -38,7 +38,7 @@ Can be found on Telegram as [Marrk Bot ❤](https://t.me/Jmhaiabr>
 ## Heroku Deployment <img src="./ImageFont/Kenred.gif" width="40px">
 The easy way to host this bot, deploy to Heroku.
 Click On The Image To Deploy
-[![Deploy](https://te.legra.ph/file/131da17a823ddcb96f2f5.jpg)](https://heroku.com/deploy?template=https://github.com/marrk85/Music-Video)
+[![Deploy](https://te.legra.ph/file/131da17a823ddcb96f2f5.jpg)](https://heroku.com/deploy?template=https://github.com/Utkarsh00986/Music-Video)
 
 ## VPS Deployment 🎵
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
